@@ -7,6 +7,7 @@ while(n>0):
 binary=demo[::-1]
 
 print(binary)
+
 modified=''
 for i in range(len(binary)):
     if binary[i]=='0':
