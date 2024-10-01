@@ -7,6 +7,6 @@ def is_anagram(s1,s2):
     for i in freq:
         if(i!=0): return False
     return True
-s1="abba"
-s2="abba"
+s1="silent"
+s2="listen"
 print(is_anagram(s1,s2))
