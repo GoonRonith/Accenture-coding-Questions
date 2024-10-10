@@ -1,4 +1,4 @@
-n="2001"
+n="22100"
 term,cnt=0,0
 for i in n:
     data=int(i)

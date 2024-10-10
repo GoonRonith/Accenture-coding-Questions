@@ -20,4 +20,5 @@ for i in range(len(l)):
             j += 1
         else:
             k -= 1
-print(cnt)
+            
+# print(cnt)

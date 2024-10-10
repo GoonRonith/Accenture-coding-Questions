@@ -21,8 +21,8 @@ public class AddBinary {
         return ans.reverse().toString();
     }
     public static void main(String[] args) {
-        String a="1010";
-        String b="1011";
+        String a="11";
+        String b="11";
         System.out.println(addBinary(a,b));
     }
 }
