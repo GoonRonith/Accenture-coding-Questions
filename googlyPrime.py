@@ -6,7 +6,7 @@ def isPrime(n):
             flag=True
     return flag
 
-n=109
+n=1091
 add=0
 
 while(n>0):

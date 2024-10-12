@@ -1,3 +1,5 @@
+
+
 l=[52,66,64,36,45,24,32]
 
 ans=[]
@@ -10,4 +12,4 @@ for i in range(len(l)-2,-1,-1):
 add=0        
 for i in ans:
     add+=i
-print(add)
+print(ans)
