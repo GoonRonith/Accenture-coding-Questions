@@ -13,7 +13,7 @@
  */
 public class magical {
     public static void main(String[] args) {
-        int n=5;
+        int n=8;
         for(int i=1;i<=n;i++){
             int num=i;
             int zerCount=0;

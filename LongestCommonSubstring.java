@@ -1,8 +1,9 @@
 public class LongestCommonSubstring {
     public static void main(String[] args) {
-        String s1 = "madam";
-        String s2 = "bdam";
-        System.out.println("length=>"+lcs(s1.length(), s2.length(), s1, s2));
+        String s1 = "tdventure";
+        String s2 = "torture";
+        // System.out.println("length=>"+lcs(s1.length(), s2.length(), s1, s2));
+        System.out.println("length=>"+lcsRecursive(s1.length()-1, s2.length()-1, s1, s2));
     }
 
     public static int lcs(int len1, int len2, String s1, String s2) {
@@ -26,14 +27,22 @@ public class LongestCommonSubstring {
             }
         }
        while (dp[pos1][pos2]!=0) {
-            ans.append(s1.charAt(pos1-1));
+        ans.append(s1.charAt(pos1-1));
            pos1--;
            pos2--;
        }
 
-        System.out.println("Longest Common sunstring=>"+ans.reverse());
+        System.out.println("Longest Common substring=>"+ans.reverse());
 
 
         return maxLength;
     }
+
+    public static int lcsRecursive(int len1, int len2, String s1, String s2){
+        if(len1 <0 || len2<0) return 0;
+        if(s1.charAt(len1)==s2.charAt(len2)) return 1+lcsRecursive(len1-1, len2-1, s1, s2);
+        else return 0;
+    }
+
+
 }
