@@ -1,5 +1,4 @@
 name="abeaicaidao"
-
 d={}
 ans=''
 vowel="aeiou"
@@ -22,5 +21,4 @@ for i in d:
             print(i)
             occr=d[i]
             ans=i
-
 print(ans,occr)

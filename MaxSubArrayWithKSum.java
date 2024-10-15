@@ -1,3 +1,15 @@
+
+/*
+ *  Longest Subarray with Sum Equal to K
+Write a Java program that finds the length of the longest contiguous subarray whose sum is equal to a given value K.
+
+Input
+An array a[] of integers (can include positive, negative, and zero values).
+An integer K which is the target sum.
+Output
+The program should return the length of the longest contiguous subarray that has a sum equal to K.
+If no such subarray exists, return 0.
+ */
 import java.util.*;;
 public class MaxSubArrayWithKSum {
     public static void main(String[] args) {
