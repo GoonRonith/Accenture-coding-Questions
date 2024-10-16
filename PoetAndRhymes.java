@@ -5,7 +5,7 @@ public class PoetAndRhymes {
         dict[0]="puzzle";
         dict[1]="thunder";
         dict[2]="powder";
-        dict[3]="under";
+        dict[3]="blunder";
         dict[4]="blender";
         int len=5;
         System.out.println(check(s,dict,len));

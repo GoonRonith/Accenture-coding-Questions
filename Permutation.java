@@ -9,7 +9,7 @@ public class Permutation {
         return fact;
     }
     public static void main(String[] args) {
-        String s="bcd";
+        String s="bcdae";
         char voewls[]={'A','E','I','O','U','a','e','i','o','u'};
         int cnt=0;
         boolean isPresent;

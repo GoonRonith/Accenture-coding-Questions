@@ -1,20 +1,17 @@
 public class reverseArrayANDSum {
     public static void main(String[] args) {
-        int a[]={21,24,67,13,24,27,};
-        int lastIndex=a.length-1;
-        int i=0;
-        while (i<lastIndex)
-        {
-            int temp=a[i];
-            a[i]=a[lastIndex];
-            a[lastIndex]=temp;
-            lastIndex--;
-            i++;
-        }
+        int a[]={1,2,3,4,5,6};
         int sum=0;
-        for(int j=0;j<a.length;j++){
-            if(j%2==0) sum+=a[j];
+        if(a.length%2==0){
+            for (int i = 0; i < a.length; i++) {
+                if(i%2!=0) sum+=a[i];
+            }
         }
-        System.err.println(sum);
+        else{
+            for (int i = 0; i < a.length; i++) {
+                if(i%2==0) sum+=a[i];
+            }
+        }
+        System.out.println(sum);
     }
 }

@@ -16,6 +16,7 @@ public class SubStringOfKsizeMaxOccurChar {
                 cnt++;
             }
         }
+        // System.out.println(j);
         max=cnt;
         while (j<s.length()-1) {
             if(s.charAt(i++)=='a') cnt--;

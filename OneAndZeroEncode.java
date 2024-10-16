@@ -1,6 +1,6 @@
 public class OneAndZeroEncode {
     public static void main(String[] args) {
-        String s="1011111010111"; 
+        String s="10111110101111"; 
         System.out.println(Encode(s));
     }
     public static String Encode(String s){
